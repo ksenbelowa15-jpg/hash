@@ -13,6 +13,6 @@
 2. Выполните скрипты в этом порядке:
 
 ```bash
-psql -U your_user -d your_database -f sql/hash_table.sql.sql
-psql -U your_user -d your_database -f sql/replication.sql
-psql -U your_user -d your_database -f sql/tests.sql
+psql -U your_user -d your_database -f hash_table.sql.sql
+psql -U your_user -d your_database -f replication.sql
+psql -U your_user -d your_database -f tests.sql
